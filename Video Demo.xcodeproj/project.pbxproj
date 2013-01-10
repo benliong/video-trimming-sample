@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFC6A7BB169E66D100BE4504 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BA169E66D100BE4504 /* UIKit.framework */; };
+		DFC6A7BD169E66D100BE4504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BC169E66D100BE4504 /* Foundation.framework */; };
+		DFC6A7BF169E66D100BE4504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BE169E66D100BE4504 /* CoreGraphics.framework */; };
+		DFC6A7C1169E66D100BE4504 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7C0169E66D100BE4504 /* CoreData.framework */; };
+		DFC6A7C7169E66D100BE4504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC6A7C5169E66D100BE4504 /* InfoPlist.strings */; };
+		DFC6A7C9169E66D100BE4504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC6A7C8169E66D100BE4504 /* main.m */; };
+		DFC6A7CD169E66D100BE4504 /* VDOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC6A7CC169E66D100BE4504 /* VDOAppDelegate.m */; };
+		DFC6A7CF169E66D100BE4504 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC6A7CE169E66D100BE4504 /* Default.png */; };
+		DFC6A7D1169E66D100BE4504 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC6A7D0169E66D100BE4504 /* Default@2x.png */; };
+		DFC6A7D3169E66D100BE4504 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC6A7D2169E66D100BE4504 /* Default-568h@2x.png */; };
+		DFC6A7D6169E66D100BE4504 /* Video_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFC6A7D4169E66D100BE4504 /* Video_Demo.xcdatamodeld */; };
+		DFC6A7DE169E66D100BE4504 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7DD169E66D100BE4504 /* SenTestingKit.framework */; };
+		DFC6A7DF169E66D100BE4504 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BA169E66D100BE4504 /* UIKit.framework */; };
+		DFC6A7E0169E66D100BE4504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BC169E66D100BE4504 /* Foundation.framework */; };
+		DFC6A7E1169E66D100BE4504 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7C0169E66D100BE4504 /* CoreData.framework */; };
+		DFC6A7E9169E66D100BE4504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC6A7E7169E66D100BE4504 /* InfoPlist.strings */; };
+		DFC6A7EC169E66D100BE4504 /* Video_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC6A7EB169E66D100BE4504 /* Video_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFC6A7E2169E66D100BE4504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFC6A7AD169E66D100BE4504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC6A7B5169E66D100BE4504;
+			remoteInfo = "Video Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFC6A7B6169E66D100BE4504 /* Video Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC6A7BA169E66D100BE4504 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFC6A7BC169E66D100BE4504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFC6A7BE169E66D100BE4504 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFC6A7C0169E66D100BE4504 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DFC6A7C4169E66D100BE4504 /* Video Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video Demo-Info.plist"; sourceTree = "<group>"; };
+		DFC6A7C6169E66D100BE4504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFC6A7C8169E66D100BE4504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFC6A7CA169E66D100BE4504 /* Video Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Video Demo-Prefix.pch"; sourceTree = "<group>"; };
+		DFC6A7CB169E66D100BE4504 /* VDOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDOAppDelegate.h; sourceTree = "<group>"; };
+		DFC6A7CC169E66D100BE4504 /* VDOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDOAppDelegate.m; sourceTree = "<group>"; };
+		DFC6A7CE169E66D100BE4504 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DFC6A7D0169E66D100BE4504 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DFC6A7D2169E66D100BE4504 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DFC6A7D5169E66D100BE4504 /* Video_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Video_Demo.xcdatamodel; sourceTree = "<group>"; };
+		DFC6A7DC169E66D100BE4504 /* Video DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC6A7DD169E66D100BE4504 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFC6A7E6169E66D100BE4504 /* Video DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video DemoTests-Info.plist"; sourceTree = "<group>"; };
+		DFC6A7E8169E66D100BE4504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFC6A7EA169E66D100BE4504 /* Video_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video_DemoTests.h; sourceTree = "<group>"; };
+		DFC6A7EB169E66D100BE4504 /* Video_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFC6A7B3169E66D100BE4504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6A7BB169E66D100BE4504 /* UIKit.framework in Frameworks */,
+				DFC6A7BD169E66D100BE4504 /* Foundation.framework in Frameworks */,
+				DFC6A7BF169E66D100BE4504 /* CoreGraphics.framework in Frameworks */,
+				DFC6A7C1169E66D100BE4504 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC6A7D8169E66D100BE4504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6A7DE169E66D100BE4504 /* SenTestingKit.framework in Frameworks */,
+				DFC6A7DF169E66D100BE4504 /* UIKit.framework in Frameworks */,
+				DFC6A7E0169E66D100BE4504 /* Foundation.framework in Frameworks */,
+				DFC6A7E1169E66D100BE4504 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC6A7AB169E66D100BE4504 = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7C2169E66D100BE4504 /* Video Demo */,
+				DFC6A7E4169E66D100BE4504 /* Video DemoTests */,
+				DFC6A7B9169E66D100BE4504 /* Frameworks */,
+				DFC6A7B7169E66D100BE4504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFC6A7B7169E66D100BE4504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7B6169E66D100BE4504 /* Video Demo.app */,
+				DFC6A7DC169E66D100BE4504 /* Video DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFC6A7B9169E66D100BE4504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7BA169E66D100BE4504 /* UIKit.framework */,
+				DFC6A7BC169E66D100BE4504 /* Foundation.framework */,
+				DFC6A7BE169E66D100BE4504 /* CoreGraphics.framework */,
+				DFC6A7C0169E66D100BE4504 /* CoreData.framework */,
+				DFC6A7DD169E66D100BE4504 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFC6A7C2169E66D100BE4504 /* Video Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7CB169E66D100BE4504 /* VDOAppDelegate.h */,
+				DFC6A7CC169E66D100BE4504 /* VDOAppDelegate.m */,
+				DFC6A7D4169E66D100BE4504 /* Video_Demo.xcdatamodeld */,
+				DFC6A7C3169E66D100BE4504 /* Supporting Files */,
+			);
+			path = "Video Demo";
+			sourceTree = "<group>";
+		};
+		DFC6A7C3169E66D100BE4504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7C4169E66D100BE4504 /* Video Demo-Info.plist */,
+				DFC6A7C5169E66D100BE4504 /* InfoPlist.strings */,
+				DFC6A7C8169E66D100BE4504 /* main.m */,
+				DFC6A7CA169E66D100BE4504 /* Video Demo-Prefix.pch */,
+				DFC6A7CE169E66D100BE4504 /* Default.png */,
+				DFC6A7D0169E66D100BE4504 /* Default@2x.png */,
+				DFC6A7D2169E66D100BE4504 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFC6A7E4169E66D100BE4504 /* Video DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7EA169E66D100BE4504 /* Video_DemoTests.h */,
+				DFC6A7EB169E66D100BE4504 /* Video_DemoTests.m */,
+				DFC6A7E5169E66D100BE4504 /* Supporting Files */,
+			);
+			path = "Video DemoTests";
+			sourceTree = "<group>";
+		};
+		DFC6A7E5169E66D100BE4504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6A7E6169E66D100BE4504 /* Video DemoTests-Info.plist */,
+				DFC6A7E7169E66D100BE4504 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC6A7B5169E66D100BE4504 /* Video Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC6A7EF169E66D100BE4504 /* Build configuration list for PBXNativeTarget "Video Demo" */;
+			buildPhases = (
+				DFC6A7B2169E66D100BE4504 /* Sources */,
+				DFC6A7B3169E66D100BE4504 /* Frameworks */,
+				DFC6A7B4169E66D100BE4504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Demo";
+			productName = "Video Demo";
+			productReference = DFC6A7B6169E66D100BE4504 /* Video Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFC6A7DB169E66D100BE4504 /* Video DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC6A7F2169E66D100BE4504 /* Build configuration list for PBXNativeTarget "Video DemoTests" */;
+			buildPhases = (
+				DFC6A7D7169E66D100BE4504 /* Sources */,
+				DFC6A7D8169E66D100BE4504 /* Frameworks */,
+				DFC6A7D9169E66D100BE4504 /* Resources */,
+				DFC6A7DA169E66D100BE4504 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC6A7E3169E66D100BE4504 /* PBXTargetDependency */,
+			);
+			name = "Video DemoTests";
+			productName = "Video DemoTests";
+			productReference = DFC6A7DC169E66D100BE4504 /* Video DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFC6A7AD169E66D100BE4504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VDO;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pixls Limited";
+			};
+			buildConfigurationList = DFC6A7B0169E66D100BE4504 /* Build configuration list for PBXProject "Video Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFC6A7AB169E66D100BE4504;
+			productRefGroup = DFC6A7B7169E66D100BE4504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC6A7B5169E66D100BE4504 /* Video Demo */,
+				DFC6A7DB169E66D100BE4504 /* Video DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC6A7B4169E66D100BE4504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6A7C7169E66D100BE4504 /* InfoPlist.strings in Resources */,
+				DFC6A7CF169E66D100BE4504 /* Default.png in Resources */,
+				DFC6A7D1169E66D100BE4504 /* Default@2x.png in Resources */,
+				DFC6A7D3169E66D100BE4504 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC6A7D9169E66D100BE4504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6A7E9169E66D100BE4504 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFC6A7DA169E66D100BE4504 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFC6A7B2169E66D100BE4504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6A7C9169E66D100BE4504 /* main.m in Sources */,
+				DFC6A7CD169E66D100BE4504 /* VDOAppDelegate.m in Sources */,
+				DFC6A7D6169E66D100BE4504 /* Video_Demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC6A7D7169E66D100BE4504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6A7EC169E66D100BE4504 /* Video_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFC6A7E3169E66D100BE4504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC6A7B5169E66D100BE4504 /* Video Demo */;
+			targetProxy = DFC6A7E2169E66D100BE4504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFC6A7C5169E66D100BE4504 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC6A7C6169E66D100BE4504 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFC6A7E7169E66D100BE4504 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC6A7E8169E66D100BE4504 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFC6A7ED169E66D100BE4504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFC6A7EE169E66D100BE4504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFC6A7F0169E66D100BE4504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Video Demo/Video Demo-Prefix.pch";
+				INFOPLIST_FILE = "Video Demo/Video Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFC6A7F1169E66D100BE4504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Video Demo/Video Demo-Prefix.pch";
+				INFOPLIST_FILE = "Video Demo/Video Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFC6A7F3169E66D100BE4504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Video Demo.app/Video Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Video Demo/Video Demo-Prefix.pch";
+				INFOPLIST_FILE = "Video DemoTests/Video DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DFC6A7F4169E66D100BE4504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Video Demo.app/Video Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Video Demo/Video Demo-Prefix.pch";
+				INFOPLIST_FILE = "Video DemoTests/Video DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFC6A7B0169E66D100BE4504 /* Build configuration list for PBXProject "Video Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC6A7ED169E66D100BE4504 /* Debug */,
+				DFC6A7EE169E66D100BE4504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC6A7EF169E66D100BE4504 /* Build configuration list for PBXNativeTarget "Video Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC6A7F0169E66D100BE4504 /* Debug */,
+				DFC6A7F1169E66D100BE4504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFC6A7F2169E66D100BE4504 /* Build configuration list for PBXNativeTarget "Video DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC6A7F3169E66D100BE4504 /* Debug */,
+				DFC6A7F4169E66D100BE4504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFC6A7D4169E66D100BE4504 /* Video_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFC6A7D5169E66D100BE4504 /* Video_Demo.xcdatamodel */,
+			);
+			currentVersion = DFC6A7D5169E66D100BE4504 /* Video_Demo.xcdatamodel */;
+			path = Video_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFC6A7AD169E66D100BE4504 /* Project object */;
+}
