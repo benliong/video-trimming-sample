@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF196474169FE6CE005A3DA7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF196473169FE6CE005A3DA7 /* MobileCoreServices.framework */; };
+		DF19647C169FF0AD005A3DA7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF19647B169FF0AD005A3DA7 /* AVFoundation.framework */; };
+		DF19647E169FF0CD005A3DA7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF19647D169FF0CD005A3DA7 /* CoreMedia.framework */; };
+		DF196486169FFDF4005A3DA7 /* VDOVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF196485169FFDF4005A3DA7 /* VDOVideoCell.m */; };
+		DF196488169FFE05005A3DA7 /* VDOVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF196487169FFE05005A3DA7 /* VDOVideoCell.xib */; };
+		DF19648A169FFE30005A3DA7 /* badges.png in Resources */ = {isa = PBXBuildFile; fileRef = DF196489169FFE30005A3DA7 /* badges.png */; };
+		DF1964A016A002E2005A3DA7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19649B16A002E1005A3DA7 /* 1.png */; };
+		DF1964A116A002E2005A3DA7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19649C16A002E1005A3DA7 /* 2.png */; };
+		DF1964A216A002E2005A3DA7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19649D16A002E1005A3DA7 /* 3.png */; };
+		DF1964A316A002E2005A3DA7 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19649E16A002E2005A3DA7 /* 4.png */; };
+		DF1964A416A002E2005A3DA7 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19649F16A002E2005A3DA7 /* 5.png */; };
+		DF30FB5A169FA8D00026ADE1 /* VDOExistingVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF30FB58169FA8D00026ADE1 /* VDOExistingVideoListViewController.m */; };
+		DF30FB5B169FA8D00026ADE1 /* VDOExistingVideoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF30FB59169FA8D00026ADE1 /* VDOExistingVideoListViewController.xib */; };
 		DFC6A7BB169E66D100BE4504 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BA169E66D100BE4504 /* UIKit.framework */; };
 		DFC6A7BD169E66D100BE4504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BC169E66D100BE4504 /* Foundation.framework */; };
 		DFC6A7BF169E66D100BE4504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC6A7BE169E66D100BE4504 /* CoreGraphics.framework */; };
@@ -37,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF196473169FE6CE005A3DA7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DF19647B169FF0AD005A3DA7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF19647D169FF0CD005A3DA7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DF196484169FFDF4005A3DA7 /* VDOVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDOVideoCell.h; sourceTree = "<group>"; };
+		DF196485169FFDF4005A3DA7 /* VDOVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDOVideoCell.m; sourceTree = "<group>"; };
+		DF196487169FFE05005A3DA7 /* VDOVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDOVideoCell.xib; sourceTree = "<group>"; };
+		DF196489169FFE30005A3DA7 /* badges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badges.png; sourceTree = "<group>"; };
+		DF19649B16A002E1005A3DA7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DF19649C16A002E1005A3DA7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DF19649D16A002E1005A3DA7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DF19649E16A002E2005A3DA7 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		DF19649F16A002E2005A3DA7 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DF30FB57169FA8D00026ADE1 /* VDOExistingVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDOExistingVideoListViewController.h; sourceTree = "<group>"; };
+		DF30FB58169FA8D00026ADE1 /* VDOExistingVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDOExistingVideoListViewController.m; sourceTree = "<group>"; };
+		DF30FB59169FA8D00026ADE1 /* VDOExistingVideoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDOExistingVideoListViewController.xib; sourceTree = "<group>"; };
 		DFC6A7B6169E66D100BE4504 /* Video Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC6A7BA169E66D100BE4504 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFC6A7BC169E66D100BE4504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF19647E169FF0CD005A3DA7 /* CoreMedia.framework in Frameworks */,
+				DF19647C169FF0AD005A3DA7 /* AVFoundation.framework in Frameworks */,
+				DF196474169FE6CE005A3DA7 /* MobileCoreServices.framework in Frameworks */,
 				DFC6A7BB169E66D100BE4504 /* UIKit.framework in Frameworks */,
 				DFC6A7BD169E66D100BE4504 /* Foundation.framework in Frameworks */,
 				DFC6A7BF169E66D100BE4504 /* CoreGraphics.framework in Frameworks */,
@@ -86,9 +117,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF196483169FFDD6005A3DA7 /* VDOVideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				DF196484169FFDF4005A3DA7 /* VDOVideoCell.h */,
+				DF196485169FFDF4005A3DA7 /* VDOVideoCell.m */,
+				DF196487169FFE05005A3DA7 /* VDOVideoCell.xib */,
+			);
+			name = VDOVideoCell;
+			sourceTree = "<group>";
+		};
+		DF30FB5D169FA8E10026ADE1 /* Existing Video List */ = {
+			isa = PBXGroup;
+			children = (
+				DF196483169FFDD6005A3DA7 /* VDOVideoCell */,
+				DF30FB57169FA8D00026ADE1 /* VDOExistingVideoListViewController.h */,
+				DF30FB58169FA8D00026ADE1 /* VDOExistingVideoListViewController.m */,
+				DF30FB59169FA8D00026ADE1 /* VDOExistingVideoListViewController.xib */,
+			);
+			name = "Existing Video List";
+			sourceTree = "<group>";
+		};
 		DFC6A7AB169E66D100BE4504 = {
 			isa = PBXGroup;
 			children = (
+				DF19649B16A002E1005A3DA7 /* 1.png */,
+				DF19649C16A002E1005A3DA7 /* 2.png */,
+				DF19649D16A002E1005A3DA7 /* 3.png */,
+				DF19649E16A002E2005A3DA7 /* 4.png */,
+				DF19649F16A002E2005A3DA7 /* 5.png */,
+				DF19647D169FF0CD005A3DA7 /* CoreMedia.framework */,
+				DF19647B169FF0AD005A3DA7 /* AVFoundation.framework */,
+				DF196473169FE6CE005A3DA7 /* MobileCoreServices.framework */,
 				DFC6A7C2169E66D100BE4504 /* Video Demo */,
 				DFC6A7E4169E66D100BE4504 /* Video DemoTests */,
 				DFC6A7B9169E66D100BE4504 /* Frameworks */,
@@ -120,10 +180,12 @@
 		DFC6A7C2169E66D100BE4504 /* Video Demo */ = {
 			isa = PBXGroup;
 			children = (
+				DF196489169FFE30005A3DA7 /* badges.png */,
 				DFC6A7CB169E66D100BE4504 /* VDOAppDelegate.h */,
 				DFC6A7CC169E66D100BE4504 /* VDOAppDelegate.m */,
 				DFC6A7D4169E66D100BE4504 /* Video_Demo.xcdatamodeld */,
 				DFC6A7C3169E66D100BE4504 /* Supporting Files */,
+				DF30FB5D169FA8E10026ADE1 /* Existing Video List */,
 			);
 			path = "Video Demo";
 			sourceTree = "<group>";
@@ -237,6 +299,14 @@
 				DFC6A7CF169E66D100BE4504 /* Default.png in Resources */,
 				DFC6A7D1169E66D100BE4504 /* Default@2x.png in Resources */,
 				DFC6A7D3169E66D100BE4504 /* Default-568h@2x.png in Resources */,
+				DF30FB5B169FA8D00026ADE1 /* VDOExistingVideoListViewController.xib in Resources */,
+				DF196488169FFE05005A3DA7 /* VDOVideoCell.xib in Resources */,
+				DF19648A169FFE30005A3DA7 /* badges.png in Resources */,
+				DF1964A016A002E2005A3DA7 /* 1.png in Resources */,
+				DF1964A116A002E2005A3DA7 /* 2.png in Resources */,
+				DF1964A216A002E2005A3DA7 /* 3.png in Resources */,
+				DF1964A316A002E2005A3DA7 /* 4.png in Resources */,
+				DF1964A416A002E2005A3DA7 /* 5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +344,8 @@
 				DFC6A7C9169E66D100BE4504 /* main.m in Sources */,
 				DFC6A7CD169E66D100BE4504 /* VDOAppDelegate.m in Sources */,
 				DFC6A7D6169E66D100BE4504 /* Video_Demo.xcdatamodeld in Sources */,
+				DF30FB5A169FA8D00026ADE1 /* VDOExistingVideoListViewController.m in Sources */,
+				DF196486169FFDF4005A3DA7 /* VDOVideoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +514,7 @@
 				DFC6A7F1169E66D100BE4504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFC6A7F2169E66D100BE4504 /* Build configuration list for PBXNativeTarget "Video DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +523,7 @@
 				DFC6A7F4169E66D100BE4504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,17 +7,23 @@
 //
 
 #import "VDOAppDelegate.h"
+#import "VDOExistingVideoListViewController.h"
 
 @implementation VDOAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@synthesize tabBarController = _tabBarController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    self.tabBarController.viewControllers = [NSArray arrayWithObject:[[UINavigationController alloc] initWithRootViewController:[[VDOExistingVideoListViewController alloc] init]]];
+    [self.window addSubview:self.tabBarController.view];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -144,6 +150,16 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+#pragma mark -
+#pragma mark Custom Getters / Setters
+
+- (UITabBarController *)tabBarController {
+    if (!_tabBarController) {
+        _tabBarController = [[UITabBarController alloc] init];
+    }
+    return _tabBarController;
 }
 
 @end
